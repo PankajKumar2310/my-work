@@ -13,37 +13,37 @@ import pdf6 from '../assets/certificats/certificate06.pdf';
 const certificatesData = [
     {
         id: 1,
-        title: "Fundamentals of Deep learning",
+        title: "Building & Deploying Apps on AWS ",
         image: img1,
-        file: pdf5
+        file: pdf1
     },
     {
         id: 2,
-        title: "Cyber of job Simulation",
-        file: pdf1,
+        title: "Model Context Protocol (MCP) ",
+        file: pdf2,
         image: img2
     },
     {
         id: 3,
-        title: "Advanced Software Engineering Job Simulation",
-        file: pdf4,
+        title: "Fundamentals of Deep Learning Certificate",
+        file: pdf3,
         image: img3
     },
     {
         id: 4,
-        title: "Technology Job Simulation",
-        file: pdf3,
+        title: "Hands On Project on Gen Ai ",
+        file: pdf4,
         image: img4
     },
     {
         id: 5,
-        title: "Data Analytics Job Simulation",
-        file: pdf2,
+        title: "Nxtwave - Responsive Web Design",
+        file: pdf5,
         image: img5
     },
     {
         id: 6,
-        title: "HK Debt Finance Virtual Program",
+        title: "25 Under 5 Coding Challenge ",
         file: pdf6,
         image: img6
     }

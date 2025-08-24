@@ -67,9 +67,9 @@ const ContactForm = ({ isOpen, onClose }) => {
                         <h2 className="text-2xl font-bold">Let's get in touch</h2>
                         <p>We're open for any suggestion or just to have a chat</p>
                         <div className="space-y-4 text-sm">
-                            <InfoItem icon={<MapPin size={18} />} text="Sawai Madhopur, Rajasthan" />
-                            <InfoItem icon={<PhoneCallIcon size={18} />} text="+91 9680477712" />
-                            <InfoItem icon={<MailIcon size={18} />} text="officalkamalmeena2005@gmail.com" />
+                            <InfoItem icon={<MapPin size={18} />} text="Sirohi, Rajasthan" />
+                            <InfoItem icon={<PhoneCallIcon size={18} />} text="+91 8529817616" />
+                            <InfoItem icon={<MailIcon size={18} />} text="pnkj24connect@gmail.com" />
 
                         </div>
                         <button
@@ -87,12 +87,12 @@ const ContactForm = ({ isOpen, onClose }) => {
                                 <h2 className="mb-2 text-2xl font-bold">Let's get in touch</h2>
                                 <p className="mb-8">We're open for any suggestion or just to have a chat</p>
                                 <div className="space-y-6 text-sm">
-                                    <InfoItem icon={<MapPin size={18} />} text="Sawai Madhopur, Rajasthan" />
-                                    <InfoItem icon={<PhoneCallIcon size={18} />} text="+91 9680477712" />
-                                    <InfoItem icon={<MailIcon size={18} />} text="officalkamalmeena2005@gmail.com" />
+                                    <InfoItem icon={<MapPin size={18} />} text="Sirohi, Rajasthan" />
+                                    <InfoItem icon={<PhoneCallIcon size={18} />} text="+91 8529817616" />
+                                    <InfoItem icon={<MailIcon size={18} />} text="pnkj24connect@gmail.com" />
 <InfoItem
   icon={<GlobeIcon size={18} />}
-  text={<a href="https://kamalmeena.vercel.app/" target="_blank" rel="noopener noreferrer">kamalMeena.com</a>}
+  text={<a href="https://pankajkumar.vercel.app/" target="_blank" rel="noopener noreferrer">pankajkumar.com</a>}
 />                                </div>
                             </div>
                         )}

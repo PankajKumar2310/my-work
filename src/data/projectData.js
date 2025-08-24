@@ -1,82 +1,76 @@
 // projectData.js
-import pro01img01 from '../assets/images/pro01img01.jpg'
-import pro01img02 from '../assets/images/pro01img02.jpg'
-import pro01img03 from '../assets/images/pro01img03.jpg'
-import pro01img04 from '../assets/images/pro01img04.jpg'
-import pro01img05 from '../assets/images/pro01img05.jpg'
+import pro01img01 from '../assets/images/pro01img01.png'
+import pro01img02 from '../assets/images/pro01img02.png'
+// import pro01img03 from '../assets/images/pro01img03.jpg'
+// import pro01img04 from '../assets/images/pro01img04.jpg'
+// import pro01img05 from '../assets/images/pro01img05.jpg'
 
-import pro02img01 from '../assets/images/pro02img01.jpg'
-import pro02img02 from '../assets/images/pro02img02.jpg'
-import pro02img03 from '../assets/images/pro02img03.jpg'
+import pro02img01 from '../assets/images/pro02img01.png'
+import pro02img02 from '../assets/images/pro02img02.png'
+import pro02img03 from '../assets/images/pro02img03.png'
 
-import pro03img01 from '../assets/images/pro03img01.jpg'
-import pro03img02 from '../assets/images/pro03img02.jpg'
-import pro03img03 from '../assets/images/pro03img03.jpg'
-import pro03img04 from '../assets/images/pro03img04.jpg'
-import pro03img05 from '../assets/images/pro03img05.jpg'
+import pro03img01 from '../assets/images/pro03img01.png'
+import pro03img02 from '../assets/images/pro03img02.png'
+import pro03img03 from '../assets/images/pro03img03.png'
+
 
 
 
 export const projectsData = [
     {
         id: 1,
-        title: "STAVYA (IIITV-ICD Cultural Fest Site)",
-        subtitle: "Institute Cultural Fest Site",
-        description: "STAVYA is cultural fest Site of IIIT-Vadodara ICD featuring event details, registration, and interactive components to enhance user engagement.",
-        techStack: ["React.js", "Tailwind CSS", "GSAP", "AOS", "CSS", "JavaScript", "Figma"],
+        title: "JustDo (Full-Stack Project)",
+        subtitle: "Smart Task Management",
+        description: "A full-stack to-do application with user authentication, authorization, and CRUD operations, optimized for performance and scalability.",
+        techStack: ["React", "Node.js", "Express", "MongoDB", "Docker", "Redis"],
         highlights: [
-            "Interactive event registration system",
-            "Real-time event updates",
-            "Responsive design for all devices",
-            "Smooth animations and transitions"
+            "Secure task management for 100+ users with authentication & authorization",
+            "15x backend speed boost using Redis caching (128ms → 8ms)",
+            "Containerized deployment with Docker and MVC architecture"
         ],
-        images: [pro01img01, pro01img02, pro01img03, pro01img04, pro01img05],
-        projectType: "Web Application",
+        images: [pro01img01, pro01img02],
+        projectType: "Full-Stack Application",
         status: "Completed",
-        liveLink: "https://stavya-fest.com", // Optional
-        githubLink: "https://github.com/username/stavya" // Optional
-    },
+        liveLink: "https://justdo-app.onrender.com/",
+        githubLink: "https://github.com/PankajKumar2310/justdo-app"
+    }
+,    
     {
         id: 2,
-        title: "HODO (Hackathon Project)",
-        subtitle: "Modern Shopping Experience",
-        description: "A full-stack e-commerce platform with advanced features like real-time inventory management, secure payment integration, and personalized user experience.",
-        techStack: ["Next.js", "Node.js", "MongoDB", "Stripe", "Redux", "Material-UI"],
+        title: "ChatNova AI (Hackathon Project)",
+        subtitle: "Real-Time Multilingual Communication",
+        description: "A full-stack chat application enabling seamless real-time communication with dynamic language translation powered by Groq API.",
+        techStack: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Groq API"],
         highlights: [
-            "Secure payment gateway integration",
-            "Real-time inventory tracking",
-            "Advanced search and filtering",
-            "User authentication & authorization"
+            "Real-time multilingual chat with Groq-powered translations",
+            "Robust message flow with optimized prompt structures",
+            "Efficient database schema for translated message storage",
+            "Optimized frontend with minimized re-renders"
         ],
         images: [pro02img01, pro02img02, pro02img03],
         projectType: "Full-Stack Application",
-        status: "In Progress",
-        liveLink: "https://myecommerce.com",
-        githubLink: "https://github.com/username/ecommerce"
-    },
-    {
-        id: 3,
-        title: "Nutrifit (HealthCare Web App)",
-        subtitle: "Productivity & Collaboration Tool",
-        description: "A comprehensive task management application with team collaboration features, real-time updates, and advanced project tracking capabilities.",
-        techStack: ["React.js", "Firebase", "Chakra UI", "React Query", "TypeScript"],
-        highlights: [
-            "Real-time team collaboration",
-            "Advanced project analytics",
-            "Drag & drop task management",
-            "Multi-device synchronization"
-        ],
-        images: [
-            pro03img01,
-            pro03img02,
-            pro03img03,
-            pro03img04,
-            pro03img05,
-        ],
-        projectType: "Web Application",
         status: "Completed",
-        liveLink: "https://taskmanager.com",
-        githubLink: "https://github.com/username/taskmanager"
+        liveLink: "https://chatnova-ai.vercel.app/",
+        githubLink: "https://github.com/PankajKumar2310/ChatNova_Ai"
     }
+,    
+{
+    id: 3,
+    title: "MealMate (Food Recipe App)",
+    subtitle: "Full-Stack Web Application",
+    description: "A recipe management app with JWT authentication, REST APIs, and MVC architecture, providing secure and intuitive user experience.",
+    techStack: ["HTML", "CSS", "Bootstrap", "JavaScript", "REST API", "JWT"],
+    highlights: [
+        "Built with MVC architecture for maintainability",
+        "Implemented secure JWT-based authentication",
+        "CRUD operations: Login, Logout, Register, Edit Profile"
+    ],
+    images: [pro03img01, pro03img02, pro03img03],
+    projectType: "Full-Stack Application",
+    status: "Completed",
+    liveLink: "https://mealmate-5f9b.onrender.com/",
+    githubLink: "https://github.com/PankajKumar2310/MealMate--Food-App"
+}
+
 ];
 

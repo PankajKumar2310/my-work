@@ -30,7 +30,7 @@ const Loader = () => {
                 </motion.div>
 
                 <motion.h1 className="loder-class text-2xl xxs:text-3xl sm:text-4xl text-[#009E66] leading-snug">
-                    Kamal Meena
+                    Pankaj Kumar
                 </motion.h1>
             </motion.div>
         </motion.div>

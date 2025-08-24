@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, User } from 'lucide-react';
-import radhe from '../../assets/images/profile.jpg';
+import pnkj from '../../assets/images/profileimg.png';
 import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { ScrollArea } from '../../components/ui/Scroll-area';
@@ -12,7 +12,7 @@ const ChatBot = () => {
     const [messages, setMessages] = useState([
         {
             id: '1',
-            text: "Hi there! 👋 I'm Kamal's AI assistant. What would you like to know?",
+            text: "Hi there! 👋 I'm Pankaj's AI assistant. What would you like to know?",
             isBot: true,
             timestamp: new Date()
         }
@@ -105,7 +105,7 @@ const ChatBot = () => {
                                 <span className="text-sm font-semibold text-white">K</span>
                             </div>
                             <div>
-                                <h3 className="text-sm font-semibold text-foreground">Kamal's AI Assistant</h3>
+                                <h3 className="text-sm font-semibold text-foreground">Pankaj's AI Assistant</h3>
                                 <p className="text-xs text-muted-foreground">Ask me anything!</p>
                             </div>
                         </div>
@@ -124,7 +124,7 @@ const ChatBot = () => {
                                 >
                                     {message.isBot && (
                                         <div className="flex-shrink-0 w-6 h-6 mt-1 overflow-hidden rounded-full">
-                                            <img src={radhe} alt="Bot Avatar" className="object-cover w-full h-full" />
+                                            <img src={pnkj} alt="Bot Avatar" className="object-cover w-full h-full" />
                                         </div>
                                     )}
                                     <div
@@ -149,7 +149,7 @@ const ChatBot = () => {
                             {isTyping && (
                                 <div className="flex gap-3">
                                     <div className="flex-shrink-0 w-6 h-6 mt-1 overflow-hidden rounded-full">
-                                        <img src={radhe} alt="Bot Avatar" className="object-cover w-full h-full" />
+                                        <img src={pnkj} alt="Bot Avatar" className="object-cover w-full h-full" />
                                     </div>
                                     <div className="px-3 py-2 rounded-lg bg-muted">
                                         <div className="flex gap-1">
