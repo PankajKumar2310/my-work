@@ -6,7 +6,7 @@ import Lottie from "lottie-react";
 import devAnimation from "../../assets/animations/dev-animation.json";
 import { motion } from "framer-motion";
 import DarkMode from "../theme/DarkMode";
-import KAMALMEENA from '../../assets/certificats/KAMALMEENA.pdf';
+import PANKAJ from '../../assets/certificats/PANKAJKUMAR.pdf';
 
 const fadeInUp = {
     hidden: { opacity: 0, y: 40 },
@@ -102,7 +102,7 @@ const HomePage = () => {
                     >
                         {/* Download CV */}
                         <a
-                            href={KAMALMEENA}
+                            href={PANKAJ}
                             target="_blank"
                             rel="noopener noreferrer"
                             className="bg-[#009E66] text-white ml-1 xl:w-[200px] h-[50px] flex items-center justify-center gap-2 transition duration-200 xxs:w-[150px] xxs:text-xs xl:text-[15px] tracking-wide font-semibold"

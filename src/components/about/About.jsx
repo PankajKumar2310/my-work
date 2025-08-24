@@ -1,7 +1,7 @@
 import { DownloadIcon } from "lucide-react";
 import profileImg from '../../assets/images/profileimg.png';
 import { useState } from "react";
-import KAMALMEENA from '../../assets/certificats/KAMALMEENA.pdf'
+import PANKAJ from '../../assets/certificats/PANKAJKUMAR.pdf'
 
 const AboutPage = () => {
     const [showFullText, setShowFullText] = useState(false);
@@ -11,11 +11,11 @@ const AboutPage = () => {
 //   `;
 
 const fullText = `
-I’m Pankaj Kumar, a CSE pre-final year student at IIITV-ICD’26 who thrives on turning ideas into scalable, production-ready systems. My journey spans from shipping real-world solutions as a Fullstack Developer Intern at SapmenC — where I built invoicing systems, admin dashboards, and campaign platforms — to crafting side projects that blend performance with clean architecture.
+I’m Pankaj Kumar, a pre-final year CSE student at IIITV-ICD’26, passionate about building scalable, production-ready systems. I have experience as a Fullstack Developer Intern at SapmenC, creating invoicing systems, admin dashboards, and campaign platforms, and I develop side projects with clean architecture and high performance.
 
-I work across the stack with React, Next.js, Node.js, Express, MongoDB, MySQL, and Redis, while Docker, GitHub, and DevOps practices help me push code from localhost to deployment smoothly. For me, tools are enablers — what excites me more is designing APIs that scale, optimizing systems with caching and clean abstractions, and building products that solve real problems.
+I work across the stack with React, Next.js, Node.js, Express, MongoDB, MySQL, and Redis, leveraging Docker, GitHub, and DevOps practices for smooth deployment. I enjoy designing scalable APIs, optimizing systems with caching, and building products that solve real-world problems.
 
-Whether it’s reducing API latency by 15x with Redis caching, containerizing apps for reliable deployment, or mentoring peers as a TA in Python, I love combining strong fundamentals in DSA, OS, DBMS, and networks with hands-on engineering. At the end of the day, I don’t just want to write code — I want to build systems that last, scale, and make an impact.
+Whether improving API latency with Redis, containerizing apps for reliability, or mentoring peers as a Python TA, I combine strong fundamentals in DSA, OS, DBMS, and networks with hands-on engineering to deliver impactful solutions.
 `;
 
   console.log("About.jsx loaded:", new Date().toLocaleTimeString());
@@ -46,7 +46,7 @@ Whether it’s reducing API latency by 15x with Redis caching, containerizing ap
                         <div className="relative w-[220px] h-[320px] xxs:w-[200px] xxs:h-[300px] xs:w-[240px] xs:h-[340px] xsm:w-[260px] xsm:h-[360px] sm:w-[320px] sm:h-[440px] md:w-[350px] md:h-[480px] lg:w-[470px] lg:h-[600px] rounded-[100px] border-2 border-[#009E66] overflow-hidden">
                             <img
                                 src={profileImg}
-                                alt="Kamal Meena"
+                                alt="PANKAJ"
                                 className="object-cover object-top w-full h-full"
                             />
                         </div>
@@ -106,7 +106,7 @@ Whether it’s reducing API latency by 15x with Redis caching, containerizing ap
 
                         {/* Download CV Button */}
                         <a
-                            href={KAMALMEENA}
+                            href={PANKAJ}
                             download
                             className="bg-[#009E66] text-white font-semibold mt-2 px-6 py-2 sm:px-8 sm:py-3 transition-colors duration-200 flex items-center space-x-2 hover:bg-[#007f53]"
                         >
