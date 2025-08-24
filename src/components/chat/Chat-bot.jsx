@@ -102,7 +102,7 @@ const ChatBot = () => {
                     <div className="p-4 border-b border-border">
                         <div className="flex items-center gap-3">
                             <div className="flex items-center justify-center w-8 h-8 rounded-full bg-[#009e66]">
-                                <span className="text-sm font-semibold text-white">K</span>
+                                <span className="text-sm font-semibold text-white">AI</span>
                             </div>
                             <div>
                                 <h3 className="text-sm font-semibold text-foreground">Pankaj's AI Assistant</h3>
