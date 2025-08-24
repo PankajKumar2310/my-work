@@ -1,0 +1,123 @@
+import { DownloadIcon } from "lucide-react";
+import profileImg from '../../assets/images/profileimg.png';
+import { useState } from "react";
+import KAMALMEENA from '../../assets/certificats/KAMALMEENA.pdf'
+
+const AboutPage = () => {
+    const [showFullText, setShowFullText] = useState(false);
+
+//     const fullText = `
+//     I’m Kamal Meena, a final-year CSE student at IIITV-ICD’26 — someone who doesn't just write code, but constantly questions how systems work, scale, and break. My core lies in Full Stack Web Development, but my curiosity dives deeper into system design thinking, exploring how architecture, performance, and clean abstraction shape real-world software. I build with React, Next.js, Node.js, MongoDB, Convex, TypeScript, and Tailwind — but for me, tools are just surface-level. What truly drives me is applying SOLID principles, identifying design patterns, and writing logic that respects structure, scalability, and speed. My grounding in data structures, algorithms, and deep dives into DBMS, operating systems, and computer networks lets me bridge practical development with foundational insight. As a Core Member in MLSA and a creative lead in team initiatives, I believe in building systems — not just features — and stories users can feel, not just use.
+//   `;
+
+const fullText = `
+I’m Pankaj Kumar, a CSE pre-final year student at IIITV-ICD’26 who thrives on turning ideas into scalable, production-ready systems. My journey spans from shipping real-world solutions as a Fullstack Developer Intern at SapmenC — where I built invoicing systems, admin dashboards, and campaign platforms — to crafting side projects that blend performance with clean architecture.
+
+I work across the stack with React, Next.js, Node.js, Express, MongoDB, MySQL, and Redis, while Docker, GitHub, and DevOps practices help me push code from localhost to deployment smoothly. For me, tools are enablers — what excites me more is designing APIs that scale, optimizing systems with caching and clean abstractions, and building products that solve real problems.
+
+Whether it’s reducing API latency by 15x with Redis caching, containerizing apps for reliable deployment, or mentoring peers as a TA in Python, I love combining strong fundamentals in DSA, OS, DBMS, and networks with hands-on engineering. At the end of the day, I don’t just want to write code — I want to build systems that last, scale, and make an impact.
+`;
+
+  console.log("About.jsx loaded:", new Date().toLocaleTimeString());
+
+    const maxChars = 280; // Adjust based on layout
+
+    const displayedText = showFullText ? fullText : fullText.slice(0, maxChars);
+
+
+    return (
+        <section
+            id="about"
+            className="flex justify-center min-h-screen px-4 py-12 transition-colors duration-300 bg-background text-foreground xxs:px-2 xs:px-4 xsm:px-5 sm:px-6 lg:px-12"
+        >
+            <div className="flex flex-col items-center justify-center w-full ml-10">
+                {/* Section Header */}
+                <div className="flex flex-col items-center mb-10 text-center">
+                    <p className="text-xs xxs:text-[10px] xs:text-sm tracking-wider uppercase text-muted-foreground">
+                        About Me & My Education
+                    </p>
+                    <h2 className="text-3xl font-bold xxs:text-3xl xs:text-3xl xsm:text-4xl sm:text-5xl lg:text-6xl">Who am I?</h2>
+                    <div className="w-1 h-8 xxs:h-10 bg-[#009E66] mx-auto -mb-8 mt-2" />
+                </div>
+
+                <div className="flex flex-col w-full gap-10 lg:flex-row max-w-7xl">
+                    {/* Profile Image */}
+                    <div className="flex justify-center">
+                        <div className="relative w-[220px] h-[320px] xxs:w-[200px] xxs:h-[300px] xs:w-[240px] xs:h-[340px] xsm:w-[260px] xsm:h-[360px] sm:w-[320px] sm:h-[440px] md:w-[350px] md:h-[480px] lg:w-[470px] lg:h-[600px] rounded-[100px] border-2 border-[#009E66] overflow-hidden">
+                            <img
+                                src={profileImg}
+                                alt="Kamal Meena"
+                                className="object-cover object-top w-full h-full"
+                            />
+                        </div>
+                    </div>
+
+                    {/* Right Side - Content */}
+                    <div className="w-full lg:w-[586px] flex flex-col justify-center items-start xxs:px-2 xs:px-4 sm:px-4">
+                        <h3 className="text-[#009E66] text-base xxs:text-md xs:text-base sm:text-xl font-normal mb-4">About me </h3>
+                        <h4 className="mb-4 text-xl font-semibold xxs:text-xl xs:text-xl sm:text-3xl">Pankaj Kumar</h4>
+                        <p className="mb-6 text-sm leading-relaxed xxs:text-sm xs:text-sm sm:text-lg text-muted-foreground">
+                            {displayedText}
+                            {!showFullText && fullText.length > maxChars && "... "}
+                            {fullText.length > maxChars && (
+                                <button
+                                    className="ml-1 text-[#009E66]  text-sm font-medium"
+                                    onClick={() => setShowFullText(!showFullText)}
+                                >
+                                    {showFullText ? "Show less" : "Read more"}
+                                </button>
+                            )}
+                        </p>
+
+                        {/* Contact Details Grid */}
+                        <div className="grid w-full grid-cols-1 gap-4 mb-6 sm:gap-6 md:grid-cols-2">
+                            <div className="p-3 xxs:p-2 bg-secondary">
+                                <h5 className="mb-1 text-xs font-medium text-muted-foreground">Name</h5>
+                                <p className="text-sm font-medium tracking-wide text-foreground">Pankaj Kumar</p>
+                            </div>
+                            <div className="p-3 xxs:p-2 bg-secondary">
+                                <h5 className="mb-1 text-xs font-medium text-muted-foreground">Email</h5>
+                                <p className="text-sm font-medium tracking-wide text-foreground">
+                                   pnkj24connect@gmail.com
+                                </p>
+                            </div>
+                            <div className="p-3 xxs:p-2 bg-secondary">
+                                <h5 className="mb-1 text-xs font-medium text-muted-foreground">Address</h5>
+                                <p className="text-sm font-medium tracking-wide text-foreground">
+                                  Sirohi (Rajasthan)
+                                </p>
+                            </div>
+                            <div className="p-3 xxs:p-2 bg-secondary">
+                                <h5 className="mb-1 text-xs font-medium text-muted-foreground">Phone no.</h5>
+                                <p className="text-sm font-medium tracking-wide text-foreground">+91 8529817616</p>
+                            </div>
+                        </div>
+
+                        {/* Education */}
+                        <div className="w-full p-3 mb-4 xxs:p-2 bg-secondary">
+                            <h5 className="mb-1 text-xs font-medium text-muted-foreground">Education</h5>
+                            <p className="text-sm font-medium tracking-wider text-foreground">
+                                Indian Institute of Information Technology, Vadodara – ICD
+                            </p>
+                            <p className="text-sm font-medium tracking-wider text-foreground">
+                                Batch: 2022 – Present
+                            </p>
+                        </div>
+
+                        {/* Download CV Button */}
+                        <a
+                            href={KAMALMEENA}
+                            download
+                            className="bg-[#009E66] text-white font-semibold mt-2 px-6 py-2 sm:px-8 sm:py-3 transition-colors duration-200 flex items-center space-x-2 hover:bg-[#007f53]"
+                        >
+                            <DownloadIcon className="w-4 h-4 sm:w-5 sm:h-5" />
+                            <span className="text-sm sm:text-base">Download CV</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
+};
+
+export default AboutPage;
