@@ -33,10 +33,10 @@ const ContactForm = ({ isOpen, onClose }) => {
 
         toast.promise(
             emailjs.sendForm(
-                'service_ewfw0i9',
-                'template_p8xhs98',
+                'service_1i6439d',
+                'template_xrp5hbo',
                 formRef.current,
-                'M4hcDLgyDqRuB7ZtG'
+                'c-bNZIRwodJr9i_OH'
             ),
             {
                 loading: 'Sending message...',
