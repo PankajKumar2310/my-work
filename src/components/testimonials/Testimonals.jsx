@@ -21,7 +21,7 @@ const TestimonialSlider = () => {
     }, []);
 
     return (
-        <div className="relative w-full py-10">
+        <div className="relative w-full py-10 mt-5">
             {/* Arrows (only on md+ screens) */}
             <div className="absolute left-0 right-0 z-10 items-center justify-between hidden px-4 -translate-y-1/2 md:flex top-1/2">
                 <button

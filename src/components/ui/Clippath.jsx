@@ -6,12 +6,12 @@ const Clippath = () => {
             {/* Big Center Text */}
             <div className="w-full h-[50vh] flex flex-col justify-center items-center m-8 text-center">
                 <h1 className="text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-extrabold text-[#009E66] tracking-wide">
-                    Talk with me <span className="text-white bg-[#009E66] px-4 py-2 rounded-2xl">AI</span>
+                    Talk with my <span className="text-white bg-[#009E66] px-4 py-2 rounded-2xl">AI</span>
                 </h1>
 
                 {/* Tagline just below */}
-                <p className="mt-6 text-lg italic text-black">
-                    Click on chat icon to talk to my personal assistant
+                <p className="mt-6 p-3 rounded-2xl text-lg italic text-white bg-[#009E66] " >
+                    Click on chat icon and talk with my Ai assistant
                 </p>
             </div>
 

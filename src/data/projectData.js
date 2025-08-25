@@ -50,7 +50,7 @@ export const projectsData = [
         images: [pro02img01, pro02img02, pro02img03],
         projectType: "Full-Stack Application",
         status: "Completed",
-        liveLink: "https://chatnova-ai.vercel.app/",
+        liveLink: "https://drive.google.com/file/d/1C0Qcp8g3UcYKE-ggZ_QtistrEcr-zWLW/view?usp=sharing",
         githubLink: "https://github.com/PankajKumar2310/ChatNova_Ai"
     }
 ,    

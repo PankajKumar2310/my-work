@@ -92,7 +92,7 @@ const ContactForm = ({ isOpen, onClose }) => {
                                     <InfoItem icon={<MailIcon size={18} />} text="pnkj24connect@gmail.com" />
 <InfoItem
   icon={<GlobeIcon size={18} />}
-  text={<a href="https://pankajkumar.vercel.app/" target="_blank" rel="noopener noreferrer">pankajkumar.com</a>}
+  text={<a href="https://pankajkumar-ruddy.vercel.app/" target="_blank" rel="noopener noreferrer">pankajkumar.com</a>}
 />                                </div>
                             </div>
                         )}

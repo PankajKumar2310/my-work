@@ -92,8 +92,8 @@ export const portfolioData = {
     socialMedia: {
         github: "https://github.com/PankajKumar2310",
         linkedin: "https://linkedin.com/in/pnkj10",
-        twitter: "https://x.com/yourprofile",
-        portfolio: "https://yourportfolio.com"
+        twitter: "https://linkedin.com/in/pnkj10",
+        portfolio: "https://pankajkumar-ruddy.vercel.app/"
     },
     availability: {
         status: "Open to new opportunities",
@@ -103,7 +103,7 @@ export const portfolioData = {
     currentStatus: {
         timezoneOffset: 330, // IST (UTC+5:30) in minutes
         routine: [
-            { from: 23, to: 7, activity: "sleeping 😴" },
+            { from: 1, to: 7, activity: "sleeping 😴" },
             { from: 7, to: 8, activity: "just woke up and getting ready for the day" },
             { from: 8, to: 9, activity: "having breakfast 🍽️" },
             { from: 9, to: 12, activity: "attending classes 📚" },
@@ -111,7 +111,7 @@ export const portfolioData = {
             { from: 14, to: 17, activity: "working on projects / labs 🔬" },
             { from: 17, to: 20, activity: "coding practice & problem solving 💻" },
             { from: 20, to: 22, activity: "having dinner 🍽️" },
-            { from: 22, to: 23, activity: "winding down and wrapping up the day" }
+            { from: 22, to:24, activity: "winding down and wrapping up the day" }
         ],
         noGymOnSunday: true
     }
