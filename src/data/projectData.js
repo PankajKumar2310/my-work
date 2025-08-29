@@ -1,8 +1,8 @@
 // projectData.js
 import pro01img01 from '../assets/images/pro01img01.png'
 import pro01img02 from '../assets/images/pro01img02.png'
-// import pro01img03 from '../assets/images/pro01img03.jpg'
-// import pro01img04 from '../assets/images/pro01img04.jpg'
+import pro01img03 from '../assets/images/pro01img03.png'
+import pro01img04 from '../assets/images/pro01img04.png'
 // import pro01img05 from '../assets/images/pro01img05.jpg'
 
 import pro02img01 from '../assets/images/pro02img01.png'
@@ -28,8 +28,9 @@ export const projectsData = [
             "15x backend speed boost using Redis caching (128ms → 8ms)",
             "Containerized deployment with Docker and MVC architecture"
         ],
-        images: [pro01img01, pro01img02],
+        images: [pro01img01, pro01img02,pro01img03,pro01img04],
         projectType: "Full-Stack Application",
+        category: "fullstack",
         status: "Completed",
         liveLink: "https://justdo-app.onrender.com/",
         githubLink: "https://github.com/PankajKumar2310/justdo-app"
@@ -49,6 +50,7 @@ export const projectsData = [
         ],
         images: [pro02img01, pro02img02, pro02img03],
         projectType: "Full-Stack Application",
+        category: "fullstack",
         status: "Completed",
         liveLink: "https://drive.google.com/file/d/1C0Qcp8g3UcYKE-ggZ_QtistrEcr-zWLW/view?usp=sharing",
         githubLink: "https://github.com/PankajKumar2310/ChatNova_Ai"
@@ -67,10 +69,91 @@ export const projectsData = [
     ],
     images: [pro03img01, pro03img02, pro03img03],
     projectType: "Full-Stack Application",
+    category: "fullstack",
     status: "Completed",
     liveLink: "https://mealmate-5f9b.onrender.com/",
     githubLink: "https://github.com/PankajKumar2310/MealMate--Food-App"
 }
+
+// // Dummy Frontend Projects
+// ,
+// {
+//     id: 101,
+//     title: "Portfolio Lite (Frontend)",
+//     subtitle: "Responsive Personal Portfolio",
+//     description: "A clean, responsive portfolio built with modern UI patterns and animations.",
+//     techStack: ["React", "TailwindCSS", "Framer Motion"],
+//     highlights: [
+//         "Responsive grid and accessible components",
+//         "Dark/Light theme with smooth transitions",
+//         "Optimized images and lazy loading"
+//     ],
+//     images: [pro01img01, pro01img02],
+//     projectType: "Frontend UI",
+//     category: "frontend",
+//     status: "Prototype",
+//     liveLink: "#",
+//     githubLink: "#"
+// }
+// ,
+// {
+//     id: 102,
+//     title: "ShopFront (Frontend)",
+//     subtitle: "E-commerce Landing Page",
+//     description: "A product-focused landing page with carousels, category filters, and CTA sections.",
+//     techStack: ["React", "Vite", "Swiper"],
+//     highlights: [
+//         "Hero carousel with autoplay",
+//         "Accessible buttons and focus states",
+//         "Mobile-first responsive layout"
+//     ],
+//     images: [pro02img01, pro02img02],
+//     projectType: "Frontend UI",
+//     category: "frontend",
+//     status: "Prototype",
+//     liveLink: "#",
+//     githubLink: "#"
+// }
+
+// // Dummy AI Projects
+// ,
+// {
+//     id: 201,
+//     title: "VisionTag (AI)",
+//     subtitle: "Image Tagging Assistant",
+//     description: "Client app that tags images using a vision API with batch processing UI.",
+//     techStack: ["React", "TailwindCSS", "Vision API"],
+//     highlights: [
+//         "Drag-and-drop upload",
+//         "Batch tagging progress with toasts",
+//         "Copy-to-clipboard captions"
+//     ],
+//     images: [pro03img01, pro03img02],
+//     projectType: "AI App",
+//     category: "ai",
+//     status: "Demo",
+//     liveLink: "#",
+//     githubLink: "#"
+// }
+// ,
+// {
+//     id: 202,
+//     title: "PromptBoard (AI)",
+//     subtitle: "Prompt Organizer",
+//     description: "Frontend for organizing prompts with tags and quick-run presets.",
+//     techStack: ["React", "ShadCN", "LocalStorage"],
+//     highlights: [
+//         "Tag-based filtering",
+//         "Keyboard shortcuts",
+//         "Local draft autosave"
+//     ],
+//     images: [pro01img01],
+//     projectType: "AI Tool",
+//     category: "ai",
+//     status: "Demo",
+//     liveLink: "#",
+//     githubLink: "#"
+// }
 
 ];
 
