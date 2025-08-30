@@ -76,25 +76,27 @@ export const projectsData = [
 }
 
 // // Dummy Frontend Projects
-// ,
-// {
-//     id: 101,
-//     title: "Portfolio Lite (Frontend)",
-//     subtitle: "Responsive Personal Portfolio",
-//     description: "A clean, responsive portfolio built with modern UI patterns and animations.",
-//     techStack: ["React", "TailwindCSS", "Framer Motion"],
-//     highlights: [
-//         "Responsive grid and accessible components",
-//         "Dark/Light theme with smooth transitions",
-//         "Optimized images and lazy loading"
-//     ],
-//     images: [pro01img01, pro01img02],
-//     projectType: "Frontend UI",
-//     category: "frontend",
-//     status: "Prototype",
-//     liveLink: "#",
-//     githubLink: "#"
-// }
+,
+{
+    id: 101,
+    title: "AdTask AI",
+    subtitle: "Landing Page Website",
+    description: "A modern React-based landing page website built for AdTask AI using pre-designed UI components and optimized for performance.",
+    techStack: ["React", "TailwindCSS", "Accertinity UI", "21st.dev"],
+    highlights: [
+        "Responsive and accessible landing page design",
+        "Ready-made UI components for faster development",
+        "Lazy loading for improved page performance",
+        "Smooth animations and transitions"
+    ],
+    images: [pro01img01, pro01img02],
+    projectType: "Frontend UI",
+    category: "frontend",
+    status: "Completed",
+    liveLink: "https://adtask-ai-pankaj.onrender.com/",
+    githubLink: "https://github.com/PankajKumar2310/adTask_ai"
+}
+
 // ,
 // {
 //     id: 102,
