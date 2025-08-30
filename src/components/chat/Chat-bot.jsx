@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { MessageCircle, X, Send, User } from 'lucide-react';
-import pnkj from '../../assets/images/profileimg.png';
+import Aiicon from '../../assets/images/icon.webp';
 import { Button } from '../../components/ui/button';
 import { Input } from '../../components/ui/input';
 import { ScrollArea } from '../../components/ui/Scroll-area';
@@ -124,7 +124,7 @@ const ChatBot = () => {
                                 >
                                     {message.isBot && (
                                         <div className="flex-shrink-0 w-6 h-6 mt-1 overflow-hidden rounded-full">
-                                            <img src={pnkj} alt="Bot Avatar" className="object-cover w-full h-full" />
+                                            <img src={Aiicon} alt="Bot Avatar" className="object-cover w-full h-full" />
                                         </div>
                                     )}
                                     <div
@@ -149,7 +149,7 @@ const ChatBot = () => {
                             {isTyping && (
                                 <div className="flex gap-3">
                                     <div className="flex-shrink-0 w-6 h-6 mt-1 overflow-hidden rounded-full">
-                                        <img src={pnkj} alt="Bot Avatar" className="object-cover w-full h-full" />
+                                        <img src={Aiicon} alt="Bot Avatar" className="object-cover w-full h-full" />
                                     </div>
                                     <div className="px-3 py-2 rounded-lg bg-muted">
                                         <div className="flex gap-1">
