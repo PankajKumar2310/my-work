@@ -13,6 +13,12 @@ import pro03img01 from '../assets/images/pro03img01.png'
 import pro03img02 from '../assets/images/pro03img02.png'
 import pro03img03 from '../assets/images/pro03img03.png'
 
+import pro04img01 from '../assets/images/pro04img01.png'
+import pro04img02 from '../assets/images/pro04img02.png'
+import pro04img03 from '../assets/images/pro04img03.png'
+import pro04img4 from '../assets/images/pro04img04.png'
+
+
 
 
 
@@ -89,7 +95,7 @@ export const projectsData = [
         "Lazy loading for improved page performance",
         "Smooth animations and transitions"
     ],
-    images: [pro01img01, pro01img02],
+    images: [pro04img01,pro04img02,pro04img03,pro04img04],
     projectType: "Frontend UI",
     category: "frontend",
     status: "Completed",
