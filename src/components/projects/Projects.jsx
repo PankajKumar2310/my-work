@@ -22,22 +22,22 @@ const Projects = () => {
                 </h2>
                 <div className="w-1 h-10 mt-3 bg-[#009E66]"></div>
                 {/* Category Buttons */}
-                <div className="flex items-center gap-3 mt-4">
+                <div className="flex items-center gap-20 mt-4">
                     <button
                         onClick={() => setActiveCategory('frontend')}
-                        className={`px-4 py-2 text-sm border rounded transition duration-200 ${activeCategory === 'frontend' ? 'bg-[#009E66] text-white border-[#009E66]' : 'text-[#009E66] border-[#009E66] hover:bg-[#009E66] hover:text-white'}`}
+                        className={`px-4 py-2 text-md border rounded-lg transition duration-200 ${activeCategory === 'frontend' ? 'bg-[#009E66] text-white border-[#009E66]' : 'text-[#009E66] border-[#009E66] hover:bg-[#009E66] hover:text-white'}`}
                     >
                         Frontend
                     </button>
                     <button
                         onClick={() => setActiveCategory('fullstack')}
-                        className={`px-4 py-2 text-sm border rounded transition duration-200 ${activeCategory === 'fullstack' ? 'bg-[#009E66] text-white border-[#009E66]' : 'text-[#009E66] border-[#009E66] hover:bg-[#009E66] hover:text-white'}`}
+                        className={`px-4 py-2 text-md border rounded-lg transition duration-200 ${activeCategory === 'fullstack' ? 'bg-[#009E66] text-white border-[#009E66]' : 'text-[#009E66] border-[#009E66] hover:bg-[#009E66] hover:text-white'}`}
                     >
                         Fullstack
                     </button>
                     <button
                         onClick={() => setActiveCategory('ai')}
-                        className={`px-4 py-2 text-sm border rounded transition duration-200 ${activeCategory === 'ai' ? 'bg-[#009E66] text-white border-[#009E66]' : 'text-[#009E66] border-[#009E66] hover:bg-[#009E66] hover:text-white'}`}
+                        className={`px-4 py-2 text-md border rounded-lg transition duration-200 ${activeCategory === 'ai' ? 'bg-[#009E66] text-white border-[#009E66]' : 'text-[#009E66] border-[#009E66] hover:bg-[#009E66] hover:text-white'}`}
                     >
                         AI Projects
                     </button>
