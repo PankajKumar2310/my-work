@@ -16,7 +16,7 @@ import pro03img03 from '../assets/images/pro03img03.png'
 import pro04img01 from '../assets/images/pro04img01.png'
 import pro04img02 from '../assets/images/pro04img02.png'
 import pro04img03 from '../assets/images/pro04img03.png'
-import pro04img4 from '../assets/images/pro04img04.png'
+import pro04img04 from '../assets/images/pro04img04.png'
 
 
 
