@@ -18,11 +18,35 @@ import pro04img02 from '../assets/images/pro04img02.png'
 import pro04img03 from '../assets/images/pro04img03.png'
 import pro04img04 from '../assets/images/pro04img04.png'
 
-
-
+import pro05img01 from '../assets/images/pro05img01.png'
+import pro05img02 from '../assets/images/pro05img02.png'
+import pro05img03 from '../assets/images/pro05img03.png'
+import pro05img04 from '../assets/images/pro05img04.png'
+import pro05img05 from '../assets/images/pro05img05.png'
+import pro05img06 from '../assets/images/pro05img06.png'
+import pro05img07 from '../assets/images/pro05img07.png'
 
 
 export const projectsData = [
+    {
+        id: 2,
+        title: "ChatNova AI (Hackathon Project)",
+        subtitle: "Real-Time Multilingual Communication",
+        description: "A full-stack chat application enabling seamless real-time communication with dynamic language translation powered by Groq API.",
+        techStack: ["React", "Node.js", "Express", "MongoDB", "Socket.io", "Groq API"],
+        highlights: [
+            "Real-time multilingual chat with Groq-powered translations",
+            "Robust message flow with optimized prompt structures",
+            "Efficient database schema for translated message storage",
+            "Optimized frontend with minimized re-renders"
+        ],
+        images: [pro02img01, pro02img02, pro02img03],
+        projectType: "Full-Stack Application",
+        category: "fullstack",
+        status: "Completed",
+        liveLink: "https://drive.google.com/file/d/1C0Qcp8g3UcYKE-ggZ_QtistrEcr-zWLW/view?usp=sharing",
+        githubLink: "https://github.com/PankajKumar2310/ChatNova_Ai"
+    },
     {
         id: 1,
         title: "JustDo (Full-Stack Project)",
@@ -56,7 +80,7 @@ export const projectsData = [
         ],
         images: [pro02img01, pro02img02, pro02img03],
         projectType: "Full-Stack Application",
-        category: "fullstack",
+        category: "ai",
         status: "Completed",
         liveLink: "https://drive.google.com/file/d/1C0Qcp8g3UcYKE-ggZ_QtistrEcr-zWLW/view?usp=sharing",
         githubLink: "https://github.com/PankajKumar2310/ChatNova_Ai"
@@ -79,7 +103,38 @@ export const projectsData = [
     status: "Completed",
     liveLink: "https://mealmate-5f9b.onrender.com/",
     githubLink: "https://github.com/PankajKumar2310/MealMate--Food-App"
+},
+
+{
+    id: 4,
+    title: "Weekendly.io",
+    subtitle: "Personalized Weekend Planning Web App",
+    description: "A comprehensive React-based web application that helps users design their perfect weekend by choosing activities, meals, and moods, then arranging them into a personalized Saturday–Sunday schedule with drag-and-drop functionality.",
+    techStack: [
+        "React", 
+        "Redux Toolkit", 
+        "React Router DOM", 
+        "Tailwind CSS", 
+        "React Query", 
+        "React DnD", 
+        "html2canvas"
+    ],
+    highlights: [
+        "Plan personalized Saturday–Sunday schedules with 100+ predefined activities",
+        "Drag-and-drop activity arrangement with conflict detection",
+        "Holiday integration using Indian Holidays API",
+        "Export weekend plans as PNG images",
+        "Mood-based filtering and 5 dynamic visual themes",
+        "Optimized performance using React.memo and lazy loading"
+    ],
+    images: [pro05img01, pro05img02, pro05img03,pro05img04,pro05img05,pro05img06,pro05img07],
+    projectType: "Frontend Application",
+    category: "frontend",
+    status: "Completed",
+    liveLink: "https://weekendlyio.vercel.app/",
+    githubLink: "https://github.com/PankajKumar2310/weekendly.io"
 }
+
 
 // // Dummy Frontend Projects
 ,
@@ -101,7 +156,8 @@ export const projectsData = [
     status: "Completed",
     liveLink: "https://adtask-ai-pankaj.onrender.com/",
     githubLink: "https://github.com/PankajKumar2310/adTask_ai"
-}
+},
+
 
 // ,
 // {
