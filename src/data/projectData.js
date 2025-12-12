@@ -70,7 +70,7 @@ export const projectsData = [
     projectType: "Full-Stack Application",
     category: "fullstack",
     status: "Completed",
-    liveLink: "https://inventory-backend-x3eb.onrender.com/", 
+    liveLink: "https://inventory-management-app-cobz-5sjh548sa.vercel.app/", 
     githubLink: "https://github.com/PankajKumar2310/inventory-management-app"
 },
 
@@ -91,7 +91,7 @@ export const projectsData = [
     projectType: "Full-Stack Application",
     category: "fullstack",
     status: "Completed",
-    liveLink: "https://acorn-globus-app.onrender.com/", 
+    liveLink: "https://court-booking-sys.vercel.app/", 
     githubLink: "https://github.com/PankajKumar2310/court-booking-sys"
 },
     {
