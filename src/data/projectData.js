@@ -26,8 +26,74 @@ import pro05img05 from '../assets/images/pro05img05.png'
 import pro05img06 from '../assets/images/pro05img06.png'
 import pro05img07 from '../assets/images/pro05img07.png'
 
+import pro06img01 from '../assets/images/pro06img01.png'
+import pro06img02 from '../assets/images/pro06img02.png'
+import pro06img03 from '../assets/images/pro06img03.png'
+import pro06img04 from '../assets/images/pro06img04.png'
+import pro06img05 from '../assets/images/pro06img05.png'
+import pro06img06 from '../assets/images/pro06img06.png'
+
+import pro07img01 from '../assets/images/pro07img01.png'
+import pro07img02 from '../assets/images/pro07img02.png'
+import pro07img03 from '../assets/images/pro07img03.png'
+import pro07img04 from '../assets/images/pro07img04.png'
+import pro07img05 from '../assets/images/pro07img05.png'
+
+
+
 
 export const projectsData = [
+
+
+    {
+    id: 6,
+    title: "Inventory Management App",
+    subtitle: "Efficient Product Tracking System",
+    description: "A full-stack inventory management system designed to streamline product tracking. It features bulk CSV import/export capabilities, real-time inventory updates with history logging, and a secure user authentication system.",
+    techStack: ["React", "Node.js", "Express", "SQLite", "SASS", "Vite"],
+    highlights: [
+        "Comprehensive Product CRUD with search, sort, and filter capabilities",
+        "Bulk data management optimized with CSV Import/Export features",
+        "Detailed audit trail tracking every modification to product inventory",
+        "Lightweight and efficient SQLite database implementation",
+        "Secure user authentication (Login/Register) with session management"
+    ],
+    images: [
+        pro06img01,
+        pro06img02, 
+        pro06img03, 
+        pro06img04,
+        pro06img05,
+        pro06img06,
+
+    ],
+    projectType: "Full-Stack Application",
+    category: "fullstack",
+    status: "Completed",
+    liveLink: "https://inventory-backend-x3eb.onrender.com/", 
+    githubLink: "https://github.com/PankajKumar2310/inventory-management-app"
+},
+
+{
+    id: 7,
+    title: "Court Booking Platform",
+    subtitle: "Multi-Resource Booking System",
+    description: "A comprehensive full-stack booking platform designed to manage badminton courts, equipment, and coaches. It features a unique atomic booking engine that handles multi-resource availability and a dynamic pricing implementation based on configurable rules.",
+    techStack: ["React", "Node.js", "Express", "MongoDB", "Tailwind CSS", "Vite"],
+    highlights: [
+        "Atomic Multi-Resource Booking: Single transaction management for Courts + Equipment + Coach",
+        "Dynamic Pricing Engine: Rule-based calculation for peak hours, weekends, and holidays",
+        "Real-time Availability Engine: Prevents double bookings across shared finite resources ",
+        "Admin Dashboard: Comprehensive management interface for courts, inventory, and pricing rules"
+    ],
+    // Note: These image variables would need to be imported in your project file
+    images: [pro07img01, pro07img02, pro07img03, pro07img04,pro07img05], 
+    projectType: "Full-Stack Application",
+    category: "fullstack",
+    status: "Completed",
+    liveLink: "https://acorn-globus-app.onrender.com/", 
+    githubLink: "https://github.com/PankajKumar2310/court-booking-sys"
+},
     {
         id: 2,
         title: "ChatNova AI (Hackathon Project)",
@@ -139,7 +205,7 @@ export const projectsData = [
 // // Dummy Frontend Projects
 ,
 {
-    id: 101,
+    id: 5,
     title: "AdTask AI",
     subtitle: "Landing Page Website",
     description: "A modern React-based landing page website built for AdTask AI using pre-designed UI components and optimized for performance.",
@@ -157,6 +223,7 @@ export const projectsData = [
     liveLink: "https://adtask-ai-pankaj.onrender.com/",
     githubLink: "https://github.com/PankajKumar2310/adTask_ai"
 },
+
 
 
 // ,
