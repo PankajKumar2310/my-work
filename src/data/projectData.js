@@ -70,7 +70,7 @@ export const projectsData = [
     projectType: "Full-Stack Application",
     category: "fullstack",
     status: "Completed",
-    liveLink: "https://inventory-management-app-cobz-5sjh548sa.vercel.app/", 
+    liveLink: "https://invent-app-fawn.vercel.app/", 
     githubLink: "https://github.com/PankajKumar2310/inventory-management-app"
 },
 
