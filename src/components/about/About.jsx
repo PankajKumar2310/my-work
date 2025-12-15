@@ -6,16 +6,12 @@ import PANKAJ from '../../assets/certificats/PANKAJKUMAR.pdf'
 const AboutPage = () => {
     const [showFullText, setShowFullText] = useState(false);
 
-//     const fullText = `
-//     I’m Kamal Meena, a final-year CSE student at IIITV-ICD’26 — someone who doesn't just write code, but constantly questions how systems work, scale, and break. My core lies in Full Stack Web Development, but my curiosity dives deeper into system design thinking, exploring how architecture, performance, and clean abstraction shape real-world software. I build with React, Next.js, Node.js, MongoDB, Convex, TypeScript, and Tailwind — but for me, tools are just surface-level. What truly drives me is applying SOLID principles, identifying design patterns, and writing logic that respects structure, scalability, and speed. My grounding in data structures, algorithms, and deep dives into DBMS, operating systems, and computer networks lets me bridge practical development with foundational insight. As a Core Member in MLSA and a creative lead in team initiatives, I believe in building systems — not just features — and stories users can feel, not just use.
-//   `;
+
 
 const fullText = `
-I’m Pankaj Kumar, a pre-final year CSE student at IIITV-ICD’26, passionate about building scalable, production-ready systems. I have experience as a Fullstack Developer Intern at SapmenC, creating invoicing systems, admin dashboards, and campaign platforms, and I develop side projects with clean architecture and high performance.
+I’m Pankaj Kumar, a pre-final year CSE student at IIITV-ICD’26, passionate about building scalable, real-world products. I’ve worked as a Full-Stack Developer Intern at SapmenC, where I built invoicing systems, admin dashboards, and campaign platforms.
 
-I work across the stack with React, Next.js, Node.js, Express, MongoDB, MySQL, and Redis, leveraging Docker, GitHub, and DevOps practices for smooth deployment. I enjoy designing scalable APIs, optimizing systems with caching, and building products that solve real-world problems.
-
-Whether improving API latency with Redis, containerizing apps for reliability, or mentoring peers as a Python TA, I combine strong fundamentals in DSA, OS, DBMS, and networks with hands-on engineering to deliver impactful solutions.
+I work across the stack using React, Next.js, Node.js, MongoDB, MySQL, and Redis, and I enjoy optimizing APIs, using caching, and deploying reliable systems with Docker and DevOps tools. With strong fundamentals in DSA, OS, DBMS, and Networks, I focus on writing clean, production-ready code that solves real problems.
 `;
 
   console.log("About.jsx loaded:", new Date().toLocaleTimeString());

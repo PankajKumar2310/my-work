@@ -3,7 +3,7 @@ import React, { useState, useEffect, useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import toast from 'react-hot-toast';
 
-const ContactForm = ({ isOpen, onClose }) => {
+const ContactForm = () => {
     const [formData, setFormData] = useState({
         from_name: '',
         user_email: '',
@@ -47,7 +47,6 @@ const ContactForm = ({ isOpen, onClose }) => {
                         subject: '',
                         message: ''
                     });
-                    onClose();
                     return 'Message sent successfully!';
                 },
                 error: 'Failed to send. Try again later.'
@@ -55,11 +54,9 @@ const ContactForm = ({ isOpen, onClose }) => {
         ).finally(() => setLoading(false));
     };
 
-    if (!isOpen) return null;
-
     return (
-        <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/30 backdrop-blur-sm">
-            <div className="w-full max-w-5xl flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden max-h-[90vh] transition-all duration-700 ease-in-out">
+        <div className="w-full mb-20 flex items-center justify-center p-4">
+            <div className="w-full max-w-5xl flex flex-col md:flex-row bg-white rounded-lg shadow-lg overflow-hidden transition-all duration-700 ease-in-out">
 
                 {/* Mobile Info Card */}
                 {isSmallScreen && !showForm ? (
@@ -90,15 +87,15 @@ const ContactForm = ({ isOpen, onClose }) => {
                                     <InfoItem icon={<MapPin size={18} />} text="Sirohi, Rajasthan" />
                                     <InfoItem icon={<PhoneCallIcon size={18} />} text="+91 8529817616" />
                                     <InfoItem icon={<MailIcon size={18} />} text="pnkj24connect@gmail.com" />
-<InfoItem
-  icon={<GlobeIcon size={18} />}
-  text={<a href="https://pankajkumar-ruddy.vercel.app/" target="_blank" rel="noopener noreferrer">pankajkumar.com</a>}
-/>                                </div>
+                                    <InfoItem
+                                        icon={<GlobeIcon size={18} />}
+                                        text={<a href="https://pankajkumar-ruddy.vercel.app/" target="_blank" rel="noopener noreferrer">pankajkumar.com</a>}
+                                    />                                </div>
                             </div>
                         )}
 
                         {/* Form Section */}
-                        <div className="w-full md:w-[60%] p-6 overflow-y-auto relative">
+                        <div className="w-full md:w-[60%] p-6 relative">
                             {isSmallScreen && (
                                 <button
                                     onClick={() => setShowForm(false)}
@@ -110,7 +107,6 @@ const ContactForm = ({ isOpen, onClose }) => {
 
                             <div className="flex items-center justify-between mt-2 mb-6">
                                 <h2 className="text-2xl font-bold text-black">Get in touch</h2>
-                                <button onClick={onClose} className="text-2xl text-gray-500 hover:text-gray-700">×</button>
                             </div>
 
                             <form ref={formRef} onSubmit={handleSubmit} className="space-y-4">
